@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{F155A43B-75F4-4022-9BD5-3E24737F5F9F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+    <Files>
+      <File FileName="Controllers/BookController.cs" Line="34" Column="10" />
+      <File FileName="Commands/Handlers/UpdateBookCommand.cs" />
+      <File FileName="Commands/CreateBookCommand.cs" />
+      <File FileName="Commands/Handlers/BookHandler.cs" />
+      <File FileName="IRepository/IBookRepository.cs" />
+      <File FileName="Repositories/BookRepository.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" Line="26" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Library PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

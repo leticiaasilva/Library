@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entity\" />
+    <None Remove="Enums\" />
+    <None Remove="Commands\" />
+    <None Remove="Commands\Contracts\" />
+    <None Remove="Flunt" />
+    <None Remove="Handler\" />
+    <None Remove="Commands\Handlers\" />
+    <None Remove="Commands\Entities\" />
+    <None Remove="Repositories\" />
+    <None Remove="IRepository\" />
+    <None Remove="Context\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.AspNetCore.Metadata" />
+    <None Remove="AspNetCore.Mvc.Routes.DebuggingLoggerMiddleware" />
+    <None Remove="System.Linq" />
+    <None Remove="System.Linq.Expressions" />
+    <None Remove="Microsoft.AspNet.Identity.EntityFramework" />
+    <None Remove="Microsoft.VisualStudio.Debugger.Engine" />
+    <None Remove="System.Diagnostics.Debug" />
+    <None Remove="WebApiRouteDebugger" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Commands\Contracts\" />
+    <Folder Include="Commands\Handlers\" />
+    <Folder Include="Commands\Entities\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="IRepository\" />
+    <Folder Include="Context\" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Metadata" Version="5.0.7" />
+    <PackageReference Include="AspNetCore.Mvc.Routes.DebuggingLoggerMiddleware" Version="1.0.0" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Debugger.Engine" Version="16.10.1051404" />
+    <PackageReference Include="System.Diagnostics.Debug" Version="4.3.0" />
+    <PackageReference Include="WebApiRouteDebugger" Version="1.0.0" />
+    <PackageReference Include="Flunt" Version="1.0.5" />
+  </ItemGroup>
+
+</Project>
